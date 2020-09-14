@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FeatureItems from "./FeatureItems/FeatureItems";
+import FeatureItems from "../FeatureItems/FeatureItems";
 import slugify from "slugify";
 
 class FeatureList extends Component {

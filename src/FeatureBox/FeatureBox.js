@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import FeatureList from "./FeatureList/FeatureList";
+import FeatureList from "../FeatureList/FeatureList";
 
 class FeatureBox extends Component {
   render() {
