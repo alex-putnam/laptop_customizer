@@ -4,6 +4,7 @@ const USCurrencyFormat = new Intl.NumberFormat("en-US", {
   style: "currency",
   currency: "USD",
 });
+
 class CartItem extends Component {
   render() {
     return (
@@ -19,5 +20,7 @@ class CartItem extends Component {
     );
   }
 }
-
+CartItem.defaultProps = {
+  selectedOption: [],
+};
 export default CartItem;

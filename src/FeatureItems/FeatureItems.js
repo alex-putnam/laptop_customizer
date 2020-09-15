@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import slugify from "slugify";
 
 const USCurrencyFormat = new Intl.NumberFormat("en-US", {
   style: "currency",
@@ -14,7 +13,7 @@ class FeatureItems extends Component {
           type="radio"
           id={this.props.itemHash}
           className="feature__option"
-          name={slugify(this.props.feature)}
+          name={this.props.feature}
           checked={
             this.props.item.name ===
             this.props.selected[this.props.feature].name
