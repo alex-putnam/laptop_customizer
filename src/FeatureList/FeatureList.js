@@ -25,7 +25,5 @@ class FeatureList extends Component {
     );
   }
 }
-FeatureList.defaultProps = {
-  features: [],
-};
+
 export default FeatureList;
